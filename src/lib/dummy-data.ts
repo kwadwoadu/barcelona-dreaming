@@ -100,33 +100,63 @@ export const premiumFeatures = [
 ];
 
 export const vendors = [
+  // Vetted - we have personal connections
   {
-    name: "Barcelona Immigration Lawyers",
-    category: "Lawyers",
-    description: "Specialists in NIE, residency, and Beckham Law applications",
+    name: "Sandra Parada Duque - Tax Boutique",
+    category: "Tax Lawyers",
+    description: "Tax lawyer specializing in expat taxation, Beckham Law, and Spanish tax compliance",
     vetted: true,
-    href: "#",
+    href: "https://taxboutique.es",
   },
   {
-    name: "Relocate BCN",
+    name: "GD Global Mobility",
     category: "Relocation Agents",
-    description: "Full-service relocation support for families",
+    description: "Full-service relocation agency helping with visas, housing, and settling in",
+    vetted: true,
+    href: "https://gdglobalmobility.com",
+  },
+  {
+    name: "BRS Relocation",
+    category: "Relocation Agents",
+    description: "Comprehensive relocation support for families and professionals",
+    vetted: true,
+    href: "https://brs-relocation.com",
+  },
+  {
+    name: "Gestoria Ruppmann",
+    category: "Lawyers",
+    description: "Administrative services specializing in car imports and vehicle documentation",
     vetted: true,
     href: "#",
   },
+  // Platforms we recommend
   {
-    name: "Spotahome Barcelona",
+    name: "Idealista",
     category: "Real Estate",
-    description: "Long-term rentals with verified listings",
+    description: "The largest property search platform in Spain. Find rentals and set alerts for homes",
     vetted: false,
-    href: "#",
+    href: "https://www.idealista.com/en/",
   },
   {
-    name: "N26 Spain",
-    category: "Banks",
-    description: "Digital bank with easy account opening for expats",
+    name: "Ukio",
+    category: "Temporary Housing",
+    description: "Temporary furnished homes for your first months while apartment hunting",
+    vetted: false,
+    href: "https://ukio.com/",
+  },
+  {
+    name: "Movistar",
+    category: "Phone & Internet",
+    description: "Major Spanish telecom provider. We have contacts who can help setup before getting NIE",
     vetted: true,
-    href: "#",
+    href: "https://www.movistar.es",
+  },
+  {
+    name: "Barcelona Housing Facebook Group",
+    category: "Real Estate",
+    description: "Active Facebook group for finding apartments and rooms in Barcelona",
+    vetted: false,
+    href: "https://www.facebook.com/groups/284148645092758/",
   },
 ];
 
